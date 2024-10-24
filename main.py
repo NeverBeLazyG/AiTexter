@@ -51,10 +51,14 @@ class TextProcessor:
         with open(self.settings_path, 'w') as f:
             json.dump(self.settings, f, indent=4)
 
+
+
     def setup_tray(self):
         # Load icon from file
-        icon_path = os.path.join(os.path.dirname(__file__), 'icon.ico')
-        icon_image = Image.open(icon_path)
+       
+        icon_image = Image.open('icon.ico')  
+
+
 
         # Create menu
         menu = (
