@@ -103,11 +103,13 @@ class TextProcessor:
         # Get the selected text from clipboard
         self.selected_text = pyperclip.paste()
         
-        # If no text was selected, show error
-        if self.selected_text == self.original_clipboard or not self.selected_text.strip():
-            messagebox.showerror("Fehler", "Bitte markieren Sie zuerst einen Text.")
-            return
-            
+        # If no text was selected, use clipboard content
+        if not self.selected_text.strip() or (self.original_clipboard and self.selected_text == self.original_clipboard):
+            self.selected_text = self.original_clipboard
+            if not self.selected_text.strip():
+                messagebox.showerror("Fehler", "Zwischenablage leer.")
+                return
+        
         # Show the window
         self.show_window()
 
