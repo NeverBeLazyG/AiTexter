@@ -59,6 +59,7 @@ class TextProcessor:
         # Create menu
         menu = (
             item('Einstellungen', self.show_settings),
+            item('About', self.show_about),
             item('Beenden', self.quit_app)
         )
 
@@ -69,7 +70,7 @@ class TextProcessor:
         threading.Thread(target=self.icon.run, daemon=True).start()
 
     def setup_hotkey(self):
-        keyboard.add_hotkey('shift+ctrl+0', self.capture_and_show)
+        keyboard.add_hotkey('shift+ctrl+0', self.capture_and_show, suppress=True)
 
     def create_main_window(self):
         self.root.title("Text Processor")
@@ -331,6 +332,14 @@ class TextProcessor:
             os._exit(0)  # Force exit to prevent thread issues
         except:
             os._exit(0)
+            
+    def show_about(self, _=None):
+        about_window = ctk.CTkToplevel(self.root)
+        about_window.title("About")
+        about_window.geometry("200x150")
+        ctk.CTkLabel(about_window, text="Author: Atilla Tenz").pack(pady=5, padx=20)
+        ctk.CTkLabel(about_window, text="E-Mail: hunwar@gmail.com").pack(pady=5, padx=20)
+        ctk.CTkLabel(about_window, text="Datum: Oktober 2024").pack(pady=5, padx=20)
 
     def run(self):
         self.root.mainloop()
