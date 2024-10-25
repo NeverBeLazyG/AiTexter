@@ -27,9 +27,8 @@
   
    - ## Screenshots
 
-![AiTexter Screenshot 1](https://private-user-images.githubusercontent.com/98562993/379936224-aa4463e3-504a-45ee-9621-fc62f8cf873b.png)
-
-![AiTexter Screenshot 2](https://private-user-images.githubusercontent.com/98562993/379936229-ee230dfd-f6ec-439d-bb0f-3de59f31d6ce.png)
+<img width="912" alt="roOdj6kuxh" src="https://github.com/user-attachments/assets/aa4463e3-504a-45ee-9621-fc62f8cf873b">
+<img width="302" alt="5TxvyamhdF" src="https://github.com/user-attachments/assets/ee230dfd-f6ec-439d-bb0f-3de59f31d6ce">
 
 
 ## System Requirements
