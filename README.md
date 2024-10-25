@@ -1,6 +1,6 @@
 # AiTexter
 
-**AiTexter** is an easy-to-use Python tool that allows users to process selected text using AI-powered models like OpenAI (ChatGPT 4o-mini) or Ollama models. It offers four powerful text processing functions that can be used directly from any application.
+**AiTexter** is an easy-to-use Python tool that allows users to process selected text using AI-powered models like OpenAI (ChatGPT 4o-mini) or Ollama models. It offers four powerful text processing functions that can be used directly from any application. It works in any language, even the UI is in German. In future, englisch ui will be added.
 
 ## Features
 
@@ -20,7 +20,7 @@
 1. **Launch the Tool:** Start AiTexter from the desktop icon. A small blue icon will appear in the system tray.
 2. **Settings:** Right-click on the system tray icon and select "Settings" to enter your OpenAI API key or Ollama model details.
 3. **Text Processing:**
-   - Highlight the text you want to process in any application.
+   - Highlight the text you want to process in any application. If no text is selectet, it uses the text in clipboard.
    - Press **Ctrl + Shift + 0** to activate the tool.
    - Select the desired function from the menu (e.g., Rephrase or Translate).
    - The tool will process the text and paste the result directly at the cursor position.
