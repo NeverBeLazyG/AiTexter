@@ -24,6 +24,13 @@
    - Press **Ctrl + Shift + 0** to activate the tool.
    - Select the desired function from the menu (e.g., Rephrase or Translate).
    - The tool will process the text and paste the result directly at the cursor position.
+  
+   - ## Screenshots
+
+![AiTexter Screenshot 1](https://private-user-images.githubusercontent.com/98562993/379936224-aa4463e3-504a-45ee-9621-fc62f8cf873b.png)
+
+![AiTexter Screenshot 2](https://private-user-images.githubusercontent.com/98562993/379936229-ee230dfd-f6ec-439d-bb0f-3de59f31d6ce.png)
+
 
 ## System Requirements
 
