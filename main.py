@@ -19,7 +19,7 @@ import win32api
 
 class TextProcessor:
     def __init__(self):
-        self.settings_path = os.path.join(os.path.dirname(__file__), 'settings.json')
+        self.settings_path = 'settings.json'
         self.settings = self.load_settings()
         self.selected_text = None
         self.original_clipboard = None
