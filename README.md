@@ -11,7 +11,7 @@
 
 ## Installation
 
-1. Download the installer: [AiTexterInstaller.exe](https://github.com/NeverBeLazyG/AiTexter/releases/download/v1.0/AiTexterInstaller.exe).
+1. Download the installer: [AiTexterInstaller.exe](https://github.com/NeverBeLazyG/AiTexter/releases/download/v1.01/AiTexterInstaller.exe).
 2. Run the setup file and follow the instructions to install AiTexter.
 3. After installation, you will find a desktop icon for AiTexter.
 
