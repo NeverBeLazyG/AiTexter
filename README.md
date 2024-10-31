@@ -1,6 +1,6 @@
 # AiTexter
 
-**AiTexter** is an easy-to-use Python tool that allows users to process selected text using AI-powered models like OpenAI (ChatGPT 4o-mini default) or Ollama models. It offers four powerful text processing functions that can be used directly from any application. It works in any language, even the UI is in German. In future, englisch ui will be added.
+**AiTexter** is an easy-to-use graphical Desktop Python tool that allows users to process selected text using AI-powered models like OpenAI (ChatGPT 4o-mini default) or Ollama models. It offers four powerful text processing functions that can be used directly from any application. It works in any language, even the UI is in German. In future, englisch ui will be added.
 
 ## Features
 
